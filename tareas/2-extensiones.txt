@@ -1,0 +1,1 @@
+Instalar la extension de VS Code llamada "Live Server"

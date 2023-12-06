@@ -1,0 +1,5 @@
+1. Instalar git
+    https://git-scm.com/downloads
+2. Instalar visual studio code (VS Code) 
+    https://code.visualstudio.com/download
+3. Registarse en github.com
