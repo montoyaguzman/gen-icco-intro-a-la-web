@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    padding: 40px;
+    border: solid 4px mediumpurple;
+    background-color: hotpink;
+    width: 800px;
+    justify-content: space-between;
+    /*
+        flex-start
+        flex-end
+    */
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    padding: 40px;
+    border: solid 4px rgb(244, 246, 243);
+    background-color: rgb(4, 4, 129);
+    color: white;
+    width: 20px;
+}

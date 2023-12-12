@@ -17,3 +17,21 @@ Hacer commits y subirlos
 git add .
 git commit -m "mensaje"
 git push origin main
+
+FLEX
+
+1. Quien es el eje principal ahorita?
+    flex-direction: row o no tengo nada? ==> main axis (horizontal) y cross axis (vertical)
+    flex-direction: column ==> main axis (vertical) y cross axis (main)
+
+    justify => main
+    align => cross
+
+Guia Interactiva Yaxche
+https://flexbox.yaxchemanrique.com/#
+
+CSS Tricks
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Vida MRR
+https://www.youtube.com/watch?v=EVBlLkfh2V0
