@@ -1,0 +1,15 @@
+img {
+	border: solid 3px hotpink;
+}
+
+#bulbasaur {
+	width: 150px;
+	float: left;
+	margin-right: 16px;
+}
+
+#eevee {
+	height: 150px;
+	float: right;
+	margin-left: 16px;
+}
