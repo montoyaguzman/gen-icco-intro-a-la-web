@@ -1,0 +1,113 @@
+body {
+	background-image: linear-gradient(
+			hsla(11, 20%, 15%, 0.9),
+			hsla(11, 20%, 15%, 0.9)
+		),
+		url(./assets/bg-beans.png);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Inter', sans-serif;
+	color: white;
+	margin: 0;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+.main-container {
+	max-width: 1000px;
+	margin-inline: auto;
+	background-color: hsla(11, 20%, 15%, 0.7);
+}
+
+.container {
+	padding-inline: 110px;
+}
+
+h1 {
+	font-size: 196px;
+	line-height: 60%;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	color: hsla(0, 0%, 100%, 0.82);
+}
+
+nav {
+	background-color: hsla(0, 0%, 0%, 0.18);
+	padding-block: 24px;
+	font-size: 20px;
+	border-radius: 16px;
+}
+
+nav ul {
+	display: block flex;
+	gap: 24px;
+	justify-content: end;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-underline-offset: 3px;
+}
+
+.button {
+	background-color: hsla(11, 20%, 71%, 1);
+	color: hsla(11, 21%, 15%, 1);
+	padding: 8px 16px;
+	border-radius: 100vw;
+	font-weight: 600;
+}
+
+.button > a {
+	text-decoration: none;
+}
+
+.banner {
+	background-color: hsla(0, 0%, 0%, 0.18);
+	border-radius: 16px;
+	padding-block: 32px;
+	text-align: center;
+	display: block flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.banner > * {
+	margin: 0;
+}
+
+.banner-title {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.banner-restrictions {
+	font-size: 14px;
+}
+
+main {
+	display: block flex;
+	justify-content: space-between;
+	gap: 76px;
+	margin-top: 240px;
+}
+
+main.container {
+	padding-bottom: 240px;
+}
+
+.card {
+	background-color: hsla(0, 0%, 0%, 0.18);
+	border-radius: 16px;
+	padding: 50px;
+}
+
+.filler {
+	height: 200vh;
+}
