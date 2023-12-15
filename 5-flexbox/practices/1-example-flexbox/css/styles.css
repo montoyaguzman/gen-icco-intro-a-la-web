@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(153, 43, 255);
+    /* name, rgb, hexadecimal, hsl */
+    height: 10vh;
+    /* px fijos y vh/vw */
+}
+
+.dashboard {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.article-element {
+    background-color: aquamarine;
+    padding: 12px;
+}
