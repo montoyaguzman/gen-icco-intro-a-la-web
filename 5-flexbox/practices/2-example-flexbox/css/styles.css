@@ -1,0 +1,19 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100px
+}
+
+.container-comments {
+    width: 50%;
+}
+
+.container-hero {
+    width: 50%;
+}
+
+.comment {
+    display: flex;
+}
